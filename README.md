@@ -1,24 +1,18 @@
-# README
+# The Gossip Project : les gossips de la formation phare comme si vous y étiez !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Une plate-forme où tout le monde peut venir écrire des gossips, les éditer, et même les détruire.*
 
-Things you may want to cover:
 
-* Ruby version
+[*Ruby on Rails Tutorial:
+Learn Web Development with Rails*](http://www.railstutorial.org/)
+by [Michael Hartl](http://www.michaelhartl.com/).
 
-* System dependencies
+## License
 
-* Configuration
+All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
+[LICENSE.md](LICENSE.md) for details.
 
-* Database creation
+```
+$ bundle install --without production
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
