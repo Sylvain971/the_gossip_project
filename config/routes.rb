@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
  
-  root 'gossips#afficher'
-  get '/home', to:'gossips#afficher'
+  root to:'gossips#afficher'
+  get 'gossips/home', to:'gossips#afficher'
   
+  get 'gossips/new', to:'gossips#new'
+
 end
