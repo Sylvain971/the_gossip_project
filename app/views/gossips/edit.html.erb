@@ -1,0 +1,27 @@
+<h1> Tu as du nouveau on dirait...
+ 
+<%= form_with(model: @gossip, local: true) do |form| %>
+ 
+  <p>
+    <%= form.label :anonymous_author %><br>
+    <%= form.text_field :anonymous_author %>
+  </p>
+ 
+  <p>
+    <%= form.label :content %><br>
+    <%= form.text_area :content %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+ 
+<% end %>
+
+<p>
+	<a href="<%= gossips_path %>"> Revenons à nos petits on dit </a>
+</p>
+
+<p> 
+	<a href="<%= link_to 'Clique pour détruire', @gossip, method: :delete %>"> J'en peux plus de ce gossip so 2017, on passe à autre chose ! </a>
+</p>

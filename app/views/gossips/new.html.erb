@@ -1,5 +1,11 @@
-<%= form_for @gossip, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
-  <%= f.text_field :anonymous_autor %>
-  <%= f.text_area :content, size: "60x12" %>
-  <%= f.submit "Create" %>
+<h1> Hey, psssiiiiiit ! Il y a du nouveau !</h1>
+
+<%= form_tag do %>
+<%= label_tag 'anonymous_author', "Mais qui es-tu ?" %>
+<%= text_field_tag 'anonymous_author' %>
+<br>
+<%= label_tag 'content', "Vas-y dis-nous on trémousse d'impatience !" %>
+<%= text_area_tag 'content' %>
+<br><br>
+<%= submit_tag "Dis-le à tout le monde !"%>
 <% end %>

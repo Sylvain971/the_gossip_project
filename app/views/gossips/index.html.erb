@@ -1,0 +1,11 @@
+<h1>Je veux tout savoir ! Quelles sont TOUTES les rumeurs et indiscrétions ?</h1>
+
+	<% @gossips.each do |gossip| %>
+ 		<h2> <%= gossip.anonymous_author %> </h2>
+ 		<p> <%= gossip.content %> </p>
+
+ 		<p>
+ 		<a href="<%= edit_gossip_path(@gossip.id) %>"> Editer</a>
+ 		</p>
+
+ 	<% end %>
