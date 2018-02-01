@@ -2,17 +2,8 @@
 
 *Une plate-forme où tout le monde peut venir écrire des gossips, les éditer, et même les détruire.*
 
+Bon j'ai fait ce que j'ai pu, je n'arrive pas à créer des gossips. Par contre j'ai vraiment taffé pour construire des controleurs et des views. 24h ne suffit pas pour moi (je suis plutôt lent).
 
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+Il ne me reste qu'un joker et je bosse tous les jours à fond, donc un peu d'indulgence siouplait !
 
-## License
-
-All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
-[LICENSE.md](LICENSE.md) for details.
-
-```
-$ bundle install --without production
-```
-
+Peace et bon courage pour la suite
